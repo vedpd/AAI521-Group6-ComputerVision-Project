@@ -88,48 +88,51 @@ This dataset is ideal for both learning and research.
 
 ## 🛠️ Recommended Project Structure
 
-AAI521-Group6-Chest-XRay-Segmentation/
-│
-├── data/
-│ ├── images/
-│ ├── masks/
-│ └── metadata/
-│
-├── notebooks/
-│ ├── 01_exploration.ipynb
-│ ├── 02_preprocessing.ipynb
-│ ├── 03_train_unet.ipynb
-│ └── 04_evaluation.ipynb
-│
-├── src/
-│ ├── dataset.py
-│ ├── transforms.py
-│ ├── model_unet.py
-│ └── train.py
-│
-├── saved_models/
-├── README.md
-└── requirements.txt
+    AAI521-Group6-Chest-XRay-Segmentation/
+    │
+    ├── data/
+    │   ├── images/
+    │   ├── masks/
+    │   └── metadata/
+    │
+    ├── notebooks/
+    │   ├── 01_exploration.ipynb
+    │   ├── 02_preprocessing.ipynb
+    │   ├── 03_train_unet.ipynb
+    │   └── 04_evaluation.ipynb
+    │
+    ├── src/
+    │   ├── dataset.py
+    │   ├── transforms.py
+    │   ├── model_unet.py
+    │   └── train.py
+    │
+    ├── saved_models/
+    ├── README.md
+    └── requirements.txt
 
-2. Install dependencies
+
+## 🚀 Getting Started
+```bash
+1. Install dependencies**
 pip install -r requirements.txt
 
-3. Download the dataset
-Place Kaggle images and masks inside:
+
+2. Download the dataset
+Place Kaggle images and masks inside the following folders:
 
 data/images/
 data/masks/
 
-4. Run notebooks
-
+3. Run notebooks
 Start with:
 notebooks/01_exploration.ipynb
 
 🔬 References
 
-Kaggle Dataset — Chest X-Ray Masks and Labels
-U-Net: Convolutional Networks for Biomedical Image Segmentation
-Recent lung segmentation literature & research
+- Kaggle Dataset — Chest X-Ray Masks and Labels
+- U-Net: Convolutional Networks for Biomedical Image Segmentation
+- Recent lung segmentation literature & research
 
 🤝 Contributing
 
