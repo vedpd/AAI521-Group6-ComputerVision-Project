@@ -58,10 +58,10 @@ This project focuses on **lung segmentation and classification** from chest X-ra
 | Module | Deadline | Task |
 |--------|----------|------|
 | Module 1 | Day 7 | Complete Teammate Survey for group preferences |
-| Module 2 | - | Assigned to groups of 2-3 members<br>- Connect via Canvas/Email/Slack<br>- Research and propose dataset and project ideas |
-| Module 4 | - | Submit Team Project Status Update Form<br>- Finalize dataset selection |
-| Module 7 | - | Final project submission (3 deliverables) |
-| Module 7 | - | Complete Peer Review for each team member |
+| Module 2 | Day 7 | Assigned to groups of 2-3 members<br>- Connect via Canvas/Email/Slack<br>- Research and propose dataset and project ideas |
+| Module 4 | Day 7 | Submit Team Project Status Update Form<br>- Finalize dataset selection |
+| Module 7 | Day 7 | Final project submission (3 deliverables) |
+| Module 7 | Day 7 | Complete Peer Review for each team member |
 
 ## 📋 Evaluation Criteria
 
