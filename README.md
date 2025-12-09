@@ -10,14 +10,14 @@
 [![Build](https://img.shields.io/badge/Build-Passing-brightgreen.svg)]()
 [![Contributions](https://img.shields.io/badge/Contributions-Welcome-orange.svg)]()
 
-## 📌 Overview
+## Overview
 This project focuses on **lung segmentation and classification** from chest X-ray images using deep learning. The implementation includes data preprocessing, model training, evaluation, and visualization pipelines.
 
 **Dataset:** [Chest X-Ray Masks and Labels](https://www.kaggle.com/datasets/nikhilpandey360/chest-xray-masks-and-labels)
 
 ---
 
-## 🚀 Badges
+## Badges
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
@@ -96,6 +96,9 @@ This project focuses on **lung segmentation and classification** from chest X-ra
 | **Technical Quality** | High-quality audio/video | Minor technical issues | Significant AV problems |
 
 ## 📦 Project Deliverables
+
+> **⚠️ Academic Integrity Notice**: This assignment uses Turnitin to ensure academic integrity. Your submission will be checked for originality, and your instructor will receive a Similarity Report. We strongly recommend using the Draft Coach extension in Google Docs to review your work before final submission.
+
 
 ### 1. Final Report
 - **Format**: Single PDF document (7-10 pages + cover, references, and appendix)
