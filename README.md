@@ -1,9 +1,19 @@
 # AAI521-Group6-ComputerVision-Project
 
 
-# 🫁 Chest X-Ray Lung Segmentation & Labels  
-### *AAI521 – Computer Vision Project (Group 6)*  
-Dataset link: https://www.kaggle.com/datasets/nikhilpandey360/chest-xray-masks-and-labels
+# 🫁 Chest X-Ray Lung Segmentation & Classification
+
+### *AAI521 – Computer Vision Project (Group 6)*
+
+[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Build](https://img.shields.io/badge/Build-Passing-brightgreen.svg)]()
+[![Contributions](https://img.shields.io/badge/Contributions-Welcome-orange.svg)]()
+
+## 📌 Overview
+This project focuses on **lung segmentation and classification** from chest X-ray images using deep learning. The implementation includes data preprocessing, model training, evaluation, and visualization pipelines.
+
+**Dataset:** [Chest X-Ray Masks and Labels](https://www.kaggle.com/datasets/nikhilpandey360/chest-xray-masks-and-labels)
 
 ---
 
@@ -19,123 +29,232 @@ Dataset link: https://www.kaggle.com/datasets/nikhilpandey360/chest-xray-masks-a
 
 ## 👥 Team Members (Group 6)
 
-- **Ved Prakash Dwivedi**  
-- **Anugrah Rastogi**  
-- **Malla Manu**
+### **Malla Manu**
+- Project identification
+- Exploratory Data Analysis
+- Data Preprocessing
+- Project Documentation for the above tasks
+- Conclusions and Report
+
+### **Anugrah Rastogi**
+- Project identification
+- EDA and Data preprocessing review
+- Developing Deep learning models - U‑Net
+- Project Documentation for modelling
+- Conclusions and Report
+
+### **Ved Prakash Dwivedi**
+- Project identification and task planning
+- Identifying Exploratory Data Analysis and Data preprocessing
+- Experiment with alternative models - ResNet
+- Project documentation, presentation and final project video presentation
+- Git Merges
+- Conclusions and Report
 
 ---
 
-## 📌 Overview  
-This repository contains the complete implementation for **lung segmentation** using the *Chest X-Ray Masks and Labels* dataset.  
-The project is developed as part of the **AAI521 – Computer Vision** course and combines preprocessing, segmentation model training, evaluation, and visualization.
+## 📅 Project Timeline
 
-The dataset includes chest X-ray images and corresponding lung masks, enabling:
+| Module | Deadline | Task |
+|--------|----------|------|
+| Module 1 | Day 7 | Complete Teammate Survey for group preferences |
+| Module 2 | - | Assigned to groups of 2-3 members<br>- Connect via Canvas/Email/Slack<br>- Research and propose dataset and project ideas |
+| Module 4 | - | Submit Team Project Status Update Form<br>- Finalize dataset selection |
+| Module 7 | - | Final project submission (3 deliverables) |
+| Module 7 | - | Complete Peer Review for each team member |
 
-- Lung segmentation  
-- Region extraction for disease analysis  
-- Preprocessing for downstream classification tasks  
+## 📋 Evaluation Criteria
 
----
+### Final Grade Distribution
+- **Final Report**: 40%
+- **Code Repository**: 30%
+- **Presentation**: 30%
+
+### 1. Final Report (40%)
+| Criteria | Meets/Exceeds Expectations | Approaches Expectations | Below Expectations |
+|----------|---------------------------|------------------------|-------------------|
+| **Project Setup** | Clear objectives, feasible approach, proper scoping | Defined but lacks clarity | Questionable feasibility |
+| **Modeling Methods** | Well-documented algorithms, clear theory, clean code | Some gaps in documentation | Significant flaws in code/theory |
+| **Validation & Metrics** | Thorough validation, relevant metrics | Basic validation, metrics need refinement | Basic or inappropriate metrics |
+| **Analysis & Results** | Insightful, well-supported conclusions | Some flaws in presentation | Significant issues with results |
+| **Formatting** | APA 7th edition, professional quality | Minor formatting issues | Significant formatting problems |
+
+### 2. Code Repository (30%)
+| Criteria | Meets/Exceeds Expectations | Approaches Expectations | Below Expectations |
+|----------|---------------------------|------------------------|-------------------|
+| **Code Quality** | Well-documented, PEP 8 compliant | Some documentation gaps | Poorly documented |
+| **Functionality** | Executes correctly on sample data | Minor execution issues | Significant functional problems |
+| **Teamwork** | Clear version control history | Some collaboration evident | Limited team contribution |
+| **Documentation** | Comprehensive README | Basic README | Missing or minimal README |
+
+### 3. Presentation (30%)
+| Criteria | Meets/Exceeds Expectations | Approaches Expectations | Below Expectations |
+|----------|---------------------------|------------------------|-------------------|
+| **Content** | Clear, concise, covers all key points | Missing some elements | Significant content gaps |
+| **Delivery** | Professional, well-rehearsed | Some presentation issues | Poor delivery quality |
+| **Team Participation** | Equal participation from all members | Uneven participation | Minimal team collaboration |
+| **Technical Quality** | High-quality audio/video | Minor technical issues | Significant AV problems |
+
+## 📦 Project Deliverables
+
+### 1. Final Report
+- **Format**: Single PDF document (7-10 pages + cover, references, and appendix)
+- **Contents**:
+  - Project methodology and implementation details
+  - Analysis of results and findings
+  - Appendix with supporting materials
+- **Style**: APA 7th edition format
+
+### 2. Code Repository
+- **Platform**: GitHub
+- **Requirements**:
+  - Well-documented code following PEP 8 style guide
+  - Comprehensive README
+  - Version control history
+  - Optional: Interactive web application (Streamlit/Dash)
+
+### 3. Presentation
+- **Format**: 10-12 minute recorded video with slides
+- **Content**:
+  - Project overview and objectives
+  - Methodology and implementation
+  - Results and findings
+  - Team contributions
+- **Requirements**:
+  - Equal participation from all team members
+  - Clear audio and video quality
+  - Professional slide deck
 
 ## 🎯 Project Objectives
 
-- Develop a robust preprocessing pipeline for chest X-rays  
-- Train deep-learning models (e.g., U-Net) for lung segmentation  
-- Evaluate segmentation using Dice, IoU, and visual overlays  
-- Create reusable & modular code for medical-image workflows  
-- Provide a foundation for classification or pathology detection  
+- Develop a robust preprocessing pipeline for chest X-ray images
+- Implement and train deep learning models (U-Net, etc.) for accurate lung segmentation
+- Evaluate model performance using metrics like Dice coefficient and IoU
+- Create a modular and well-documented codebase for medical image analysis
+- Enable easy extension for classification or pathology detection tasks
 
----
+## 📊 Dataset
 
-## 📂 Dataset Summary
+### **Dataset Details**
+- **Source:** [Chest X-Ray Masks and Labels](https://www.kaggle.com/datasets/nikhilpandey360/chest-xray-masks-and-labels) on Kaggle
+- **Images:** High-resolution chest X-rays in `.png`/`.jpg` format
+- **Annotations:** Binary lung segmentation masks
+- **Labels:** Normal/Abnormal classification
 
-### **Selected Dataset:**  
-**Chest X-Ray Masks and Labels** (Kaggle)  
-https://www.kaggle.com/datasets/nikhilpandey360/chest-xray-masks-and-labels
-
-### **Dataset Description:**  
-- Chest X-ray images in `.png` / `.jpg` format  
-- Corresponding **binary lung masks**  
-- Normal & abnormal labels  
-- High-resolution medical images suitable for segmentation  
-
-### **Key Details**
-
-| Field | Description |
-|------|-------------|
-| Total Annotated Images | ~704 images with masks |
-| Additional Unmasked Images | ~192 |
+### **Dataset Statistics**
+| Category | Count |
+|----------|-------|
+| Annotated Images | 704 |
+| Unmasked Images | 192 |
+| Total Images | 896 |
+| Average Resolution | 1024–3000 px |
 | File Size | ~7.5 GB |
-| Image Dimensions | Vary (≈1024–3000 px) |
-| Labels | Normal / Abnormal |
-| Masks | Binary lung segmentation masks |
 
----
+### **Directory Structure**
+```
+data/
+├── images/        # Original X-ray images
+├── masks/         # Corresponding segmentation masks
+└── metadata/      # Additional dataset information
+```
 
-## 🧪 Why This Dataset Matters
+## 🛠️ Project Structure
 
-Chest X-rays are among the most widely used radiological scans worldwide.  
-Accurate lung segmentation improves:
-
-- Disease classification  
-- Noise reduction (removing non-lung regions)  
-- Model interpretability  
-- Localization of abnormalities  
-
-This dataset is ideal for both learning and research.
-
----
-
-## 🛠️ Recommended Project Structure
-
-    AAI521-Group6-Chest-XRay-Segmentation/
-    │
-    ├── data/
-    │   ├── images/
-    │   ├── masks/
-    │   └── metadata/
-    │
-    ├── notebooks/
-    │   ├── 01_exploration.ipynb
-    │   ├── 02_preprocessing.ipynb
-    │   ├── 03_train_unet.ipynb
-    │   └── 04_evaluation.ipynb
-    │
-    ├── src/
-    │   ├── dataset.py
-    │   ├── transforms.py
-    │   ├── model_unet.py
-    │   └── train.py
-    │
-    ├── saved_models/
-    ├── README.md
-    └── requirements.txt
-
+```
+AAI521-Group6-ComputerVision-Project/
+│
+├── 01.Data/                    # Dataset information and documentation
+│   └── Readme.md              # Dataset details and structure
+│
+├── 02_Data_Preprocessing_EDA/  # Data exploration and preprocessing
+│   └── EDA_and_Preprocessing.ipynb  # Jupyter notebook for EDA
+│
+├── 03_Model_Development/       # Model implementation and training
+│   ├── Resnet_Model_Development.ipynb  # ResNet model implementation
+│   └── Unet_Model_Development.ipynb    # U-Net model implementation
+│
+└── README.md                  # Project documentation
+```
 
 ## 🚀 Getting Started
-```bash
-1. Install dependencies**
-pip install -r requirements.txt
+
+### Prerequisites
+- Python 3.8+
+- CUDA-compatible GPU (recommended)
+- [Conda](https://conda.io/) (recommended)
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/AAI521-Group6-ComputerVision-Project.git
+   cd AAI521-Group6-ComputerVision-Project
+   ```
+
+2. Create and activate a conda environment:
+   ```bash
+   conda create -n lung-seg python=3.8
+   conda activate lung-seg
+   ```
+
+3. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. Download the dataset from [Kaggle](https://www.kaggle.com/datasets/nikhilpandey360/chest-xray-masks-and-labels) and extract it into the `data/` directory.
+
+### Usage
+
+1. **Data Exploration**
+   ```bash
+   jupyter notebook notebooks/01_exploration.ipynb
+   ```
+
+2. **Preprocessing**
+   ```bash
+   jupyter notebook notebooks/02_preprocessing.ipynb
+   ```
+
+3. **Model Training**
+   ```bash
+   jupyter notebook notebooks/03_training.ipynb
+   ```
+
+4. **Evaluation**
+   ```bash
+   jupyter notebook notebooks/04_evaluation.ipynb
+   ```
 
 
-2. Download the dataset
-Place Kaggle images and masks inside the following folders:
+## 📚 References
 
-data/images/
-data/masks/
+1. [Chest X-Ray Masks and Labels Dataset](https://www.kaggle.com/datasets/nikhilpandey360/chest-xray-masks-and-labels)
+2. Ronneberger, O., Fischer, P., & Brox, T. (2015). [U-Net: Convolutional Networks for Biomedical Image Segmentation](https://arxiv.org/abs/1505.04597)
+3. Recent advances in medical image segmentation (survey papers)
 
-3. Run notebooks
-Start with:
-notebooks/01_exploration.ipynb
+## 🤝 Contributing
 
-🔬 References
+We welcome contributions! Please feel free to submit issues and pull requests.
 
-- Kaggle Dataset — Chest X-Ray Masks and Labels
-- U-Net: Convolutional Networks for Biomedical Image Segmentation
-- Recent lung segmentation literature & research
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-🤝 Contributing
+## 📄 License
 
-Contributions are welcome!
-Please open an issue or submit a pull request.
-If you use this repository or dataset, kindly cite the original Kaggle author.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 👥 Team
+
+- **Ved Prakash Dwivedi**
+- **Anugrah Rastogi**
+- **Malla Manu**
+
+## 🙏 Acknowledgments
+
+- Kaggle for hosting the dataset
+- Original dataset authors for providing the annotations
+- Open-source community for the tools and libraries used in this project
